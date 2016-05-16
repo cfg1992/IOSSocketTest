@@ -15,6 +15,7 @@
 		BA6919EB1CE2C98500820FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6919E91CE2C98500820FAC /* LaunchScreen.storyboard */; };
 		BA6919F61CE2C98500820FAC /* SocketTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6919F51CE2C98500820FAC /* SocketTestTests.m */; };
 		BA691A011CE2C98500820FAC /* SocketTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA691A001CE2C98500820FAC /* SocketTestUITests.m */; };
+		BA691A0F1CE2CB2D00820FAC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA691A0E1CE2CB2D00820FAC /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BA6919FC1CE2C98500820FAC /* SocketTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA691A001CE2C98500820FAC /* SocketTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTestUITests.m; sourceTree = "<group>"; };
 		BA691A021CE2C98500820FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA691A0E1CE2CB2D00820FAC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA691A0F1CE2CB2D00820FAC /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		BA6919CF1CE2C98500820FAC = {
 			isa = PBXGroup;
 			children = (
+				BA691A0E1CE2CB2D00820FAC /* CFNetwork.framework */,
 				BA6919DA1CE2C98500820FAC /* SocketTest */,
 				BA6919F41CE2C98500820FAC /* SocketTestTests */,
 				BA6919FF1CE2C98500820FAC /* SocketTestUITests */,
@@ -498,6 +502,7 @@
 				BA691A071CE2C98500820FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA691A081CE2C98500820FAC /* Build configuration list for PBXNativeTarget "SocketTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				BA691A0A1CE2C98500820FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA691A0B1CE2C98500820FAC /* Build configuration list for PBXNativeTarget "SocketTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				BA691A0D1CE2C98500820FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
